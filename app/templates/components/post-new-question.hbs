@@ -1,0 +1,17 @@
+<h3>Ask a new question...</h3>
+
+<div>
+  <form>
+    <div class="form-group">
+      <label for="author">Your Name</label>
+      {{input value=author id="author"}}
+    </div>
+
+    <div class="form-group">
+      <label for="question">Your Question</label>
+      {{input value=question id="question"}}
+    </div>
+
+    <button {{action 'saveQuestion'}}>Save</button>
+  </form>
+</div>
